@@ -1,0 +1,28 @@
+# Ignore loose root PDFs (final memory and presentation are stored in documentacion/)
+/*.pdf
+!red_binaria.pdf
+!red_multiclase.pdf
+!sello.pdf
+
+# LaTeX temporary / build files
+*.aux
+*.bbl
+*.blg
+*.lof
+*.log
+*.lot
+*.out
+*.toc
+*.synctex.gz
+*.fls
+*.fdb_latexmk
+
+# Jupyter Notebook & Python
+.ipynb_checkpoints/
+__pycache__/
+*.pyc
+
+# System / OS files
+.DS_Store
+Thumbs.db
+desktop.ini
